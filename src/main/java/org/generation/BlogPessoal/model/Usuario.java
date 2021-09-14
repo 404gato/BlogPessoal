@@ -17,15 +17,15 @@ public class Usuario {
 	private long id;
 	
 	@NotBlank
-	@Size(min = 5, max = 100)
+	@Size(min = 5, max = 50)
 	private String nome;
 	
 	@NotBlank
-	@Size(min = 5, max = 100)
+	@Size(min = 5, max = 15)
 	private String usuario;
 	
 	@NotBlank
-	@Size(min = 5, max = 100)
+	@Size(min = 5)
 	private String senha;
 
 	
